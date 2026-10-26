@@ -1,0 +1,42 @@
+{
+  "dataset": "UCI Bike Sharing (Capital Bikeshare, Washington D.C.), hourly",
+  "source_file": "hour.csv",
+  "source_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+  "clean_file": "data\\clean.csv",
+  "clean_sha256": "967ea1d6099a608848cc1b66b36f00f7ac4056d808bfa5424bdce16a05fcf384",
+  "rows": 17379,
+  "columns": 25,
+  "column_names": [
+    "instant",
+    "timestamp",
+    "dteday",
+    "year",
+    "yr",
+    "mnth",
+    "hr",
+    "season",
+    "season_name",
+    "holiday",
+    "weekday",
+    "workingday",
+    "weathersit",
+    "weather_name",
+    "temp",
+    "atemp",
+    "hum",
+    "windspeed",
+    "temp_c",
+    "atemp_c",
+    "hum_pct",
+    "wind_kmh",
+    "casual",
+    "registered",
+    "cnt"
+  ],
+  "missing_values": {
+    "hum": 22,
+    "hum_pct": 22
+  },
+  "frozen_at_utc": "2026-10-26T03:39:11+00:00",
+  "pandas_version": "3.0.2"
+}

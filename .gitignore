@@ -1,0 +1,7 @@
+# Clean data stays on the laptop (not for GitHub)
+data/clean.csv
+data/clean_day.csv
+
+# Notebook junk
+.ipynb_checkpoints/
+__pycache__/
